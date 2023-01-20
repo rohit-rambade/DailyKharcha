@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Daily Kharcha</title>
+  </head>
+
+  <body class="font-Poppins">
+    <div class="container mx-auto">
+      <header>
+        <div class="flex p-5 text-4xl space-x-2">
+          <span class="text-yellow-400">
+            <i class="fa-solid fa-wallet"></i>
+          </span>
+          <h1>Daily Kharcha</h1>
+        </div>
+      </header>
+
+      <main>
+        <div class="balance text-center bg-gray-400 p-10 text-2xl flex justify-between">
+          <div class="balance_heading ">
+            <h1 ><span>Total</span>
+              <span>
+                <i class="fa-solid fa-indian-rupee-sign">
+
+                </i>
+              </span>
+            </h1>
+            <div class="amount_total">0</div>
+          </div>
+          <div >
+           
+              <span class="clear_btn text-red-500 cursor-pointer hover:text-blue-700">
+                <i class="fa-sharp fa-solid fa-trash"></i>
+              </span>
+
+          </div>
+        </div>
+
+      
+
+
+        <div class="total flex justify-center bg-gray-900">
+            <form id="total_form"> 
+                <div class="input_container p-10 space-x-4 text-xl">
+                  
+                  <input
+                    type="text"
+                    class="description p-4 outline-none "
+                    placeholder="Kaha Paise Udaye ??"
+                  />
+                  <input type="number" class="amount outline-none  p-4" placeholder="Kitne Udaye ?" />
+                  <button class="add__btn text-blue-600 p-4 text-3xl">
+                    <i class="fa-solid fa-check"></i>
+                  </button>
+                </div>
+              </form>
+        </div>
+        <div class="collection p-8   my-10 space-y-2 border border-black  ">
+            <!-- <div class="item flex justify-between  border p-2 text-2xl rounded-lg">
+              <div class="item-description">
+                <div class="item-title">
+                  <p>shopping</p>
+                </div>
+                <div class="item-time">
+                  <p>28 Dec, 06:45 PM</p>
+                </div>
+              </div>
+              <div class="item-amount">
+                <p class="flex items-center space-x-3"><span>100</span><span><i class="fa-solid fa-indian-rupee-sign"></i></span></p>
+              </div>
+            </div>
+
+            <div class="item flex justify-between border p-2 text-2xl rounded-lg">
+                <div class="item-description">
+                  <div class="item-title">
+                    <p>shopping</p>
+                  </div>
+                  <div class="item-time">
+                    <p>28 Dec, 06:45 PM</p>
+                  </div>
+                </div>
+                <div class="item-amount">
+                  <p class="flex items-center space-x-3"><span>100</span><span><i class="fa-solid fa-indian-rupee-sign"></i></span></p>
+                </div>
+              </div> -->
+              <h1 class="visible text-center">😁😁😁</h1>
+          </div>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
