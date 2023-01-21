@@ -17,12 +17,12 @@ function addItems(desc, amount) {
                   <div class="item-title">
                     <p>${desc}</p>
                   </div>
-                  <div class="item-time">
+                  <div class="item-time text-sm">
                     <p>${time}</p>
                   </div>
                 </div>
                 <div class="item-amount">
-                <p class="flex items-center space-x-3"><span>${amount}</span><span><i class="fa-solid fa-indian-rupee-sign"></i></span></p>
+                <p class="flex items-center space-x-3"><span>${amount}</span><span><i class="fa-solid fa-indian-rupee-sign text-green-600"></i></span></p>
                 </div>
                 
               </div>
@@ -75,12 +75,12 @@ function showItems() {
                   <div class="item-title">
                     <p>${item.desc}</p>
                   </div>
-                  <div class="item-time">
+                  <div class="item-time text-sm">
                     <p>${item.time}</p>
                   </div>
                 </div>
                 <div class="item-amount">
-                <p class="flex items-center space-x-3"><span>${item.amount}</span><span><i class="fa-solid fa-indian-rupee-sign"></i></span></p>
+                <p class="flex items-center space-x-3"><span>${item.amount}</span><span><i class="fa-solid fa-indian-rupee-sign text-green-600"></i></span></p>
                 </div>
                 
               </div>

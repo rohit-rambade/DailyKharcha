@@ -29,8 +29,8 @@
         </div>
       </header>
 
-      <main>
-        <div class="balance text-center bg-gray-400 p-10 text-2xl flex justify-between">
+      <main class="border rounded-xl">
+        <div class="balance text-center bg-gray-400 p-10 text-2xl  flex justify-between">
           <div class="balance_heading ">
             <h1 ><span>Total</span>
               <span>
@@ -53,23 +53,23 @@
       
 
 
-        <div class="total flex justify-center bg-gray-900">
+        <div class="total  bg-gray-900">
             <form id="total_form"> 
-                <div class="input_container p-10 space-x-4 text-xl">
+                <div class="input_container p-10  text-center flex flex-col sm:flex-row sm:space-x-4 items-center justify-center space-y-4 sm:space-y-0">
                   
                   <input
                     type="text"
-                    class="description p-4 outline-none "
+                    class="description p-4 outline-none rounded-xl "
                     placeholder="Kaha Paise Udaye ??"
                   />
-                  <input type="number" class="amount outline-none  p-4" placeholder="Kitne Udaye ?" />
-                  <button class="add__btn text-blue-600 p-4 text-3xl">
-                    <i class="fa-solid fa-check"></i>
+                  <input type="number" class="amount outline-none  p-4 rounded-xl " placeholder="Kitne Udaye ?" />
+                  <button class="add__btn w-20 text-white bg-blue-600 py-1 px-2 rounded-xl text-sm border border-blue-500 hover:text-blue-600 hover:bg-transparent transition">
+                    <i class="fa-solid fa-check p-2"></i>
                   </button>
                 </div>
               </form>
         </div>
-        <div class="collection p-8   my-10 space-y-2 border border-black  ">
+        <div class=" collection p-8   my-10 space-y-2   ">
             <!-- <div class="item flex justify-between  border p-2 text-2xl rounded-lg">
               <div class="item-description">
                 <div class="item-title">
